@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <!-- Eiweiß -->
+  <ellipse cx="150" cy="150" rx="120" ry="100" fill="white" stroke="black" stroke-width="3"/>
+  
+  <!-- Eigelb (verschoben und mit weicheren Übergängen) -->
+  <ellipse cx="170" cy="130" rx="45" ry="45" fill="yellow" stroke="orange" stroke-width="5"/>
+  
+  <!-- Glanzlicht im Eigelb -->
+  <circle cx="150" cy="120" r="12" fill="white" opacity="0.5"/>
+  
+  <!-- Schattierung im Eiweiß -->
+  <ellipse cx="150" cy="180" rx="100" ry="60" fill="rgba(0, 0, 0, 0.2)"/>
+</svg>
+

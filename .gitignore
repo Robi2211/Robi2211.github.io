@@ -1,0 +1,48 @@
+# === Ruby / Rails Standard ===
+*.rbc
+capybara-*.html
+.rspec
+/log/*
+/tmp/*
+/vendor/bundle
+/.bundle
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/public/uploads
+
+# === Byebug / Pry Debugging ===
+.byebug_history
+.pry_history
+
+# === Coverage / Testing ===
+coverage/
+spec/tmp
+rspec_failed_examples.txt
+
+# === Node / Yarn (for Rails 6+ with JS) ===
+node_modules/
+yarn-debug.log*
+.yarn-integrity
+
+# === Environment / Credentials ===
+.env
+.env.*
+config/master.key
+config/credentials.yml.enc
+
+# === IDEs ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# === OS specific ===
+.DS_Store
+Thumbs.db
+
+# === Others ===
+/doc/api
+/doc/app
