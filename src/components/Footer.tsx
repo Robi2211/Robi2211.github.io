@@ -19,7 +19,7 @@ export function Footer({ onNavigate }: FooterProps) {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-gray-900 mb-3">Quick Links</h3>
+            <h3 className="text-gray-900 mb-3">Quick Links:</h3>
             <div className="space-y-2">
               <button
                 onClick={() => onNavigate('dashboard')}
@@ -50,7 +50,7 @@ export function Footer({ onNavigate }: FooterProps) {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-gray-900 mb-3">Kontakt</h3>
+            <h3 className="text-gray-900 mb-3">Kontakt:</h3>
             <div className="space-y-2">
               <div className="flex items-center gap-2 text-gray-600">
                 <Mail className="w-4 h-4" />
@@ -62,7 +62,7 @@ export function Footer({ onNavigate }: FooterProps) {
               </div>
               <div className="flex items-center gap-2 text-gray-600">
                 <MapPin className="w-4 h-4" />
-                <span>Zürich, Schweiz</span>
+                <span>Bern, Schweiz</span>
               </div>
             </div>
           </div>

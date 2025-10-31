@@ -76,7 +76,7 @@ export function AboutPage() {
             die Notenverwaltung zum Kinderspiel.
           </p>
           <p className="text-gray-600">
-            Unser Tool ist speziell für Schweizer Berufsschulen und Gymnasien entwickelt 
+            Unser Tool ist speziell für Berufsschulen und Gymnasien entwickelt 
             worden und berücksichtigt das lokale Notensystem.
           </p>
         </Card>
@@ -102,27 +102,13 @@ export function AboutPage() {
       {/* Team Section */}
       <Card className="p-6 sm:p-8 rounded-2xl">
         <h2 className="text-gray-900 mb-6">Unser Team</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="flex justify-center gap-6">
           <div className="text-center">
             <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full mx-auto mb-3 flex items-center justify-center text-white">
-              <span className="text-2xl">MK</span>
+              <span className="text-2xl">RB</span>
             </div>
-            <h3 className="text-gray-900">Max Keller</h3>
+            <h3 className="text-gray-900">Robin Blaser</h3>
             <p className="text-gray-600">Gründer & Entwickler</p>
-          </div>
-          <div className="text-center">
-            <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full mx-auto mb-3 flex items-center justify-center text-white">
-              <span className="text-2xl">SM</span>
-            </div>
-            <h3 className="text-gray-900">Sarah Müller</h3>
-            <p className="text-gray-600">UI/UX Design</p>
-          </div>
-          <div className="text-center">
-            <div className="w-24 h-24 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-full mx-auto mb-3 flex items-center justify-center text-white">
-              <span className="text-2xl">LB</span>
-            </div>
-            <h3 className="text-gray-900">Lukas Brunner</h3>
-            <p className="text-gray-600">Backend Entwicklung</p>
           </div>
         </div>
       </Card>
